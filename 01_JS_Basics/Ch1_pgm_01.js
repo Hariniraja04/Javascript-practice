@@ -1,6 +1,6 @@
 // Using console.log to display information
 
-console.log("Good Morning!");
+console.log("Go!");
 console.log("Good Evening!");
 
 
