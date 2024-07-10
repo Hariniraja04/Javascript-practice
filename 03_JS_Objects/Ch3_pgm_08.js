@@ -10,6 +10,19 @@ book = {
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
+
+var book2;
+
+book2 = {
+    title     : "Wings ofFire",
+    author    : "Abdul Kalam",
+    published : 1949
+};
+console.log("Book 2:");
+console.log("Title: " + book2.title);
+console.log("Author: " + book2.author);
+console.log("Published: " + book2.published);
 
 
 
