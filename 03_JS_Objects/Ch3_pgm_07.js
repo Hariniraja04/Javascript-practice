@@ -12,6 +12,8 @@ book2 = {
 	title : "Northern Lights",
 	author : "Philip Pullman"
 };
+console.log(book1);
+console.log(book2);
 
 
 
