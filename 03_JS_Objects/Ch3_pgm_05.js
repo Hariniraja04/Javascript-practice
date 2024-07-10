@@ -1,11 +1,15 @@
 // An object with a single property
 
 var book;
-
+var book2;
 book = {
-    title : "The Hobbit"
+    title :"The Hobbit"
 };
-
+console.log(book);
+book2 = {
+    title :"Wings of Fire"
+};
+console.log(book2);
 
 
 /* Further Adventures
