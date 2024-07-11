@@ -14,6 +14,20 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
 
+var movie2;
+movie2 = {
+  title: "Frenzy",
+  actor: "John Finch",
+  directors: "Alfred Hitchcok"
+};
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("------------------------------");
+
+
+
 
 
 /* Further Adventures
