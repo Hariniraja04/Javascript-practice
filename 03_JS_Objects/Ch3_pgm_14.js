@@ -9,6 +9,11 @@ var questionAndAnswer = {
 	correctAnswer: "Paris",
 	marksForQuestion: 2
 };
+console.log(questionAndAnswer.question);
+console.log("1."+questionAndAnswer.answer1);
+console.log("2."+questionAndAnswer.answer1);
+console.log("3."+questionAndAnswer.answer1);
+console.log("4."+questionAndAnswer.answer1);
 
 
 

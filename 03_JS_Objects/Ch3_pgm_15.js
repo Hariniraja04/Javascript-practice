@@ -14,6 +14,18 @@ console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
+player2={
+    name: "Hari",
+    health:70,
+    place: "The Enchanted Forest",
+    items:["a healing potion","an ancient wand"]
+};
+console.log(player2.name);
+console.log(player2.name + " is in " + player2.place);
+console.log(player2.name + " has health " + player2.health);
+console.log("Items: " + player.items);
+
+
 
 
 /* Further Adventures
