@@ -15,7 +15,7 @@ console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
 player2={
-    name: "Hari",
+    name: "Suman",
     health:70,
     place: "The Enchanted Forest",
     items:["a healing potion","an ancient wand"]
