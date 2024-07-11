@@ -3,6 +3,7 @@
 var sale1;
 var sale2;
 var sale3;
+var
 
 sale1 = { price: 140, taxRate: 15 };
 sale2 = { price: 40, taxRate: 10 };

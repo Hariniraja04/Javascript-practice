@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
