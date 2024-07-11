@@ -3,17 +3,25 @@
 var findTotal;
 var displayMenu;
 
-findTotal = function () {
-	result = number1 + number2;
-};
+var number1;
+var number2;
+var number3;
 
-displayMenu = function () {
+number1=10;
+number2=20;
+
+findTotal = function (){
+ 	result = number1 + number2;
+};
+displayMenu = function (){
 	console.log("Please choose an option:");
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
-
+findTotal();
+console.log("The total is: " + result);
+displayMenu();
 
 
 /* Further Adventures
