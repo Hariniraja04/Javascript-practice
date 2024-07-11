@@ -9,9 +9,7 @@ var geolocation = {
     "longitude" : -122.418,
     "elevation" : 47.000
   };
-  location.city
-  location
-
+  console.log(geolocation.city + " in " +geolocation.state +" in " + geolocation.country + " latitude 0f " + geolocation.latitude);
   
   
   
