@@ -16,6 +16,13 @@ movie2 = {
   directors: "Sam Mendes"
 };
 
+movie4 = {
+  title: "A Beautiful Mind",
+  actors: "Russell Crowe",
+  directors: "Ron Howard"
+};
+
+
 movie3 = {
   title: "Star Wars: Episode VII - The Force Awakens",
   actors: "Harrison Ford, Mark Hamill, Carrie Fisher",
@@ -39,6 +46,37 @@ console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
+
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+
+var events = [
+  {
+      name: "Meeting with HOD",
+      date: "2024-8-11",
+      location: "Auditorium"
+  },
+  {
+      name: "Eyecheckup Appointment",
+      date: "2024-07-12",
+      location: "Good vision"
+  },
+  {
+      name: "liguaskill class",
+      date: "2024-07-13",
+      location: "MCA-B class"
+  }
+];
+events.forEach(function(event) {
+  console.log("Event: " + event.name);
+  console.log("Date: " + event.date);
+  console.log("Location: " + event.location);
+  console.log("------------------------------");
+  console.log("\n");
+});
 
 
 
