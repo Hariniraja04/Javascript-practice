@@ -9,7 +9,34 @@ showSum = function (number1, number2) {
 
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(56, 74);
 
+var showProduct = function (number1, number2) {
+	var product = number1 * number2;
+	console.log("The product is " + product);
+  };
+  showProduct(3, 5);
+  showProduct(6,7);
+  showProduct(2,3);
+  
+  var showDifference = function (number1, number2) {
+	var difference = number1 - number2;
+	console.log("The difference is " + difference);
+  };
+  var showQuotient = function (number1, number2) {
+	if (number2 !== 0) {
+	  var quotient = number1 / number2;
+	  console.log("The quotient is " + quotient);
+	} else {
+	  console.log("Division by zero is undefined.");
+	}
+  };
+  showDifference(5,5);
+  showDifference(7, 14);
+  
+  showQuotient(20, 4);
+  showQuotient(9, 3);
+  showQuotient(5, 0);  
 
 
 /* Further Adventures
