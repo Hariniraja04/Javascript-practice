@@ -17,11 +17,23 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
+var movie2 = {
+  title: "Wild",
+  actors: "Reese Witherspoon · Laura Dern",
+  directors: "Jean-Marc Vallée"
+};
+showMovieInfo = function () {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+};
 
-movie = movie1;
+
+movie = movie2;
 
 showMovieInfo();
-
 
 
 /* Further Adventures
