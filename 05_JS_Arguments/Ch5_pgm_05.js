@@ -12,6 +12,28 @@ square(10);
 square(-2);
 square(1111);
 square(0.5);
+var cube = function (numberToCube) {
+  var result;
+  result = numberToCube * numberToCube * numberToCube;
+  console.log(numberToCube + " * " + numberToCube + " * " + numberToCube + " = " + result);
+};
+cube(4);
+cube(6);
+cube(10);
+cube(0.5);
+
+var squareRoot = function (number) {
+  var result;
+  result = Math.sqrt(number);
+  console.log("The square root of " + number + " is " + result);
+};
+
+squareRoot(7);
+squareRoot(12);
+squareRoot(39);
+squareRoot(11);
+
+
 
 
 
