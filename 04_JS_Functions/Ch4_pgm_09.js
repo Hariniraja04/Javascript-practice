@@ -11,6 +11,16 @@ showMovieInfo = function () {
 };
 
 
+var movie;
+var movie = {}; 
+var movie = {
+  title: "Into the Wild",
+  actors: ["Emile Hirsch "],
+  directors: ["Sean Penn"]
+};
+showMovieInfo();
+
+
 
 /* Further Adventures
  *
