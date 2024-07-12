@@ -10,12 +10,17 @@ player1 = {
     place: "The Dungeon of Doom",
     health: 50
 };
-
 player2 = {
     name: "Dax",
     place: "The Old Library",
     health: 40
 };
+function showfPlayerHealth(player){
+    console.log(player.name + " is in " + player.health);
+}
+function showPlayerHealth(player){
+    console.log(player.name + " has health " + player.health);
+}
 
 showPlayerInfo = function () {
     console.log(player.name);
@@ -28,9 +33,11 @@ showPlayerInfo = function () {
 
 player = player1;
 showPlayerInfo();
+showPlayerInfo(player.place);
 
 player = player2;
 showPlayerInfo();
+showPlayerInfo(player.place);
 
 
 
