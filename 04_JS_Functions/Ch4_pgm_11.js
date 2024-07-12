@@ -41,6 +41,47 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var question1;
+var question2;
+var question3;
+var question;
+var showQuestionInfo;
+
+question1 = {
+    text: "What is the capital of India?",
+    options: ["A. New Delhi", "B. Kathmandu", "C.Dhaka ", "D.Kabul "],
+    answer: "A"
+};
+
+question2 = {
+    text: "How Many continents in the world?",
+    options: ["A. 6", "B. 8", "C. 5", "D.7"],
+    answer: "D"
+};
+
+question3 = {
+    text: "What is the tallest mountain in the world?",
+    options: ["A.Mount Everest", "B.K2", "C.Manaslu", "D.makalu "],
+    answer: "A"
+};
+showquestion = function () {
+    console.log("Question: " + question.text);
+    console.log("Options: ");
+    for (var i = 0; i < question.options.length; i++) {
+        console.log(question.options[i]);
+    }
+    console.log("Correct Answer: " + question.answer);
+    console.log("------------------------------");
+};
+
+question = question1;
+showquestion();
+
+question = question2;
+showquestion();
+
+question = question3;
+showquestion();
 
 
 /* Further Adventures
