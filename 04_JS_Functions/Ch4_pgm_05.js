@@ -8,7 +8,7 @@ var number2;
 var number3;
 
 number1=10;
-number2=20;
+number2=30;
 
 findTotal = function (){
  	result = number1 + number2;
