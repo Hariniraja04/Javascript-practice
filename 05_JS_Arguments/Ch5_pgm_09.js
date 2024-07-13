@@ -8,6 +8,18 @@ showPlayerHealth = function (playerName, playerHealth) {
 
 showPlayerHealth("Kandra", 50);
 showPlayerHealth("Dax", 40);
+showPlayerHealth("Arin", 60);
+showPlayerHealth("Mira", 20);
+
+var healthInfo;
+healthInfo = function (playerName,playerHealth){
+console.log(healthInfo);
+};
+
+showPlayerHealth("Kandra", 50);
+showPlayerHealth("Dax", 40);
+showPlayerHealth("Arin", 60);
+showPlayerHealth("Mira", 20);
 
 
 
