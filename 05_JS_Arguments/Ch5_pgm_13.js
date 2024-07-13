@@ -30,9 +30,20 @@ showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("----------------------------");
     console.log("");
 };
+var player1 = {
+    name: "Kandra",
+    place: "The Dungeon of Doom",
+    health: 50
+};
 
-showPlayerInfo("Kandra", "The Dungeon of Doom", 50);
-showPlayerInfo("Dax", "The Old Library", 40);
+var player2 = {
+    name: "Dax",
+    place: "The Old Library",
+    health: 40
+};
+
+showPlayerInfo("Kandra", "The Dungeon of Doom", 23);
+showPlayerInfo("Dax", "The Old Library", 20);
 
 
 
