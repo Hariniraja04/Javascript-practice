@@ -25,6 +25,12 @@ var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("----------------------------");
     console.log("");
 };
+var showLine = function(length) {
+    var line = "**************************"; 
+
+    console.log(line.substring(0, length));
+};
+
 
 var player1 = {
     name: "Kandra",
