@@ -7,8 +7,9 @@ showPlayerName = function (playerName) {
     console.log("The player's name has " + playerName.length + " letters.");
 };
 
-showPlayerName("Kandra");
+showPlayerName("Kandra");- 
 showPlayerName("Dax");
+
 
 
 
