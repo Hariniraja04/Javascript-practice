@@ -3,17 +3,19 @@
 var getMessage;
 var response;
 
+
 getMessage = function () {
     return "I’m going on an adventure!";
 };
 
-response = getMessage();
-
-console.log(response);
 var getMyMessage = function () {
-    return "Hi have a niceday!";
+    return "Happy Evening!";
 };
 
+response = getMyMessage();
+console.log(response);
+response = getMessage();
+console.log(response);
 
 
 
