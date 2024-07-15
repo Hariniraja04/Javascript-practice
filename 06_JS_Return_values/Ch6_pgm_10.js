@@ -1,24 +1,28 @@
 // Displaying player information using objects
+var getPlayerName;
+var getPlayerHealth;
+var getPlayerPlace;
+var getPlayerInfo;
+var getBorder;
 
-var getPlayerName = function (playerName) {
+getPlayerName = function (playerName) {
     return playerName;
 };
 
-var getPlayerHealth = function (playerName, playerHealth) {
+getPlayerHealth = function (playerName, playerHealth) {
     return playerName + " has health " + playerHealth;
 };
 
-var getPlayerPlace = function (playerName, playerPlace) {
+getPlayerPlace = function (playerName, playerPlace) {
     return playerName + " is in " + playerPlace;
 };
 
-var getBorder = function () {
-    return "================================";
+getBorder = function () {
+    return "";
 };
 
-var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
+getPlayerInfo = function (playerName, playerPlace, playerHealth) {
     var playerInfo;
-
     playerInfo = "\n" + getPlayerName(playerName);
     playerInfo += "\n" + getBorder();
     playerInfo += "\n" + getPlayerPlace(playerName, playerPlace);
@@ -29,22 +33,11 @@ var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
     return playerInfo;
 };
 
-var player1 = {
-    name: "Kandra",
-    place: "The Dungeon of Doom",
-    health: 50
-};
+console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
+console.log(getPlayerInfo("John Doe", "Coimbatore", 76));
+console.log(getPlayerInfo());
 
-var player2 = {
-    name: "Dax",
-    place: "The Old Library",
-    health: 40
-};
-
-console.log(getPlayerInfo(player1.name, player1.place, player1.health));
-console.log(getPlayerInfo(player2.name, player2.place, player2.health));
-
-
+ 
 
 /* Further Adventures
  *

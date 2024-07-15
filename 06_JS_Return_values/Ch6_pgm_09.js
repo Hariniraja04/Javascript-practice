@@ -39,7 +39,6 @@ console.log(getPlayerInfo("John Doe", "Coimbatore", 76));
 console.log(getPlayerInfo());
 
 
-
 /* Further Adventures
  *
  * 1) Add a second call to getPlayerInfo with
