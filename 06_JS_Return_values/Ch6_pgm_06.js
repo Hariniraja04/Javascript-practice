@@ -1,5 +1,4 @@
 // A collection of functions that return values
-
 var getMessage;
 var getHelloTo;
 var sum;
@@ -8,6 +7,7 @@ var totalCost;
 getMessage = function () {
     return "I’m going on an adventure!"; 
 };
+
 
 getHelloTo = function (name) {
     return "Hello to " + name;
@@ -20,8 +20,6 @@ sum = function (number1, number2) {
 totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
-
-
 
 /* Further Adventures
  *
